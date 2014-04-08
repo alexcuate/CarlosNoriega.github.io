@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+
+}
+#pac{
+	background="logoMedicData.jpg";
+	text-align: center;
+	font-size:15px;
+}
+
+#menu{
+	font-size: 30px;
+}
+#submenu{
+	font-size: 20px;
+}
+
+
+.contenedormenu{
+	.hide();
+}
+
+#imagen{
+	text-align: right;
+}
