@@ -1,0 +1,344 @@
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+  
+      
+}
+body {
+  margin: 0;
+  background-color: #245269;
+}
+
+
+.clase{
+	color:#EB9316;
+	background-color: #BCE8F1;
+}
+
+#pac{
+	height: 80px;
+	text-align: center;
+}
+
+
+#segunda{
+	background-color:#269ABC;
+	text-align:center;
+}
+
+p { font-size: 20px; 
+    color: #FFFFFF;
+    text-align: left;
+    margin: 0px;
+}
+
+#contenedor{
+  margin: 0px auto;
+}
+
+
+
+  #encabezado{
+    
+
+    position: relative;
+    height: 92px;
+  }
+
+
+#encabezado1{
+
+    float: left;
+    
+  }
+  
+  #encabezado2{
+
+    float: left;
+
+   text-align: left;
+   font-size: 9px;
+  }
+  
+    #encabezado21{
+    
+    width: 100%;
+    height: 80%;
+  }
+
+  #encabezado22{
+    width: 100%;
+    height: 20%;
+  }
+
+
+#encabezado3{
+	text-align:right;
+
+    float: right;
+  }
+
+#encabezado31{
+    width: 100%;
+    height: 70%;
+
+  }
+#encabezado32{
+    width: 100%;
+    height: 10%;
+
+  }
+
+
+#portal{
+	border-width: 1px;
+	background-color: #C1C06E;
+  border-color: #000000;
+  border-style: solid;
+	 position: relative;
+    height: 42px;
+    margin-bottom: 20px;
+}
+#portal1{
+	background-color: #3276B1;
+	width 50%;
+	float: left;
+
+}
+#portal2{
+	background-color: #3276B1;
+	width 50%;
+	float: right;	
+
+}
+
+
+
+
+
+#contenido{
+  
+  width: 100%;
+}
+
+#columna1{
+  background-color: #C4D8E1;
+  width: 15%;
+  float: left;
+  border-width: 1px;
+  border-color: #0C1C8D;
+  border-style: solid;
+  height: 272px;
+}
+
+#columna11{
+	font-weight:bold;
+	font-size: 12px;
+	color: #0C1C8D;
+	width: 90%;
+	margin-left: 4px;
+	margin-bottom: 15px;
+	height: 12%;
+	
+}
+#columna12{
+	font-weight:bold;
+	margin-left: 6px;
+	font-size: 11px;
+	width: 100%;
+	height: 6%;
+}
+#columna13{
+	width: 100%;
+	
+    height: 10%;
+}
+#columna131{
+	width: 75%;
+	border-width: 1px;
+  border-color: #666666;
+  border-style: solid;
+  float: right;
+  margin-right:10px;
+  background-color: #FFFFFF;
+}
+#columna14{
+	width: 100%;
+	float: right;
+	font-size: 11px;
+	text-align: right;
+	margin-right:10px;
+
+}
+#columna15{
+	font-weight:bold;
+	margin-left: 6px;
+	font-size: 11px;
+	width: 100%;
+	height: 12%;
+	margin-bottom: 5px;
+}
+#columna16{
+	width: 100%;
+	
+    height: 10%;
+}
+#columna161{
+	width: 75%;
+	border-width: 1px;
+  border-color: #666666;
+  border-style: solid;
+  float: right;
+  margin-right:10px;
+  background-color: #FFFFFF;
+}
+#columna17{
+	height: 12%;
+	width: 100%;
+	float:right;
+	text-align:right;
+	margin-top: 2px;
+	margin-right:7px;
+}
+#columna18{
+	width: 100%;
+	color: #0C1C8D;
+	font-size: 11px;
+	margin-top:15;
+	height: 12%;
+
+}
+#columna181{
+	margin-left:7px;
+	width: 10%;
+	float:left;
+	
+}
+#columna182{
+	
+	width: 80%;
+	float:left;
+}
+
+#columna2{
+  float: left;
+  width: 67%;
+  margin: 20px;
+  
+  height: 302px;
+}
+#columna21{
+
+  width: 100%;
+  height: 80%;
+  margin-bottom: 20px;
+  border-width: 1px;
+  border-color: #C4D8E1;
+  border-style: solid;
+}
+
+#columna211{
+	margin-left:5px;
+	color:#0C1C8D;
+	font-size: 15px;
+	font-weight:bold;
+  width: 100%;
+  height: 15%;
+
+}
+#columna212{
+	font-size: 10px;
+	
+  width: 100%;
+  height: 70%;
+  
+}
+#columna2121{
+float:left;
+  width: 13%;
+  height: 100%;
+  margin-left: 4px;
+  margin-right: 8px;
+  
+}
+#columna2122{
+
+  width: 70%;
+  height: 80%;
+  float:left;
+  margin-top: 40px;
+}
+
+
+#columna213{
+
+  width: 100%;
+  height: 15%;
+  text-align: right;
+
+}
+
+#columna22{
+	color:#000000;
+	font-weight:bold;
+	background-color: #D8DFE3;
+ 	height: 25%;
+  width: 100%;
+  font-size:11px;
+  border-width: 1px;
+  border-color: #808EA6;
+  border-style: solid;
+
+}
+
+#columna221{
+  width: 100%;
+	height: 24%;
+}
+#columna222{
+  width: 100%;
+	text-align: center;
+}
+
+#columna3{
+
+  float: right;
+  width: 15%;
+}
+
+#columna31{
+  background-color: #F3F5F7;
+  font-size: 11px;
+  float: right;
+  width: 100%;
+   border-width: 1px;
+  border-color: #C4D8E1;
+  border-style: solid;
+  margin:10px;
+}
+#columna311{
+  float:left;
+  margin-top:7px;
+}
+#columna312{
+  width: 90%;
+  float:left;
+  margin-top:7px;
+  margin-bottom: 7px;
+}
+
+#columna32{
+  width: 100%;
+}
+
+a{
+	color: #0C1C8D;
+	font-size:11px;
+	text-decoration: underline;
+}
+
+
+
+
+

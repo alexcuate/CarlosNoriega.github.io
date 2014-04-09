@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Bootstrap 101 Template</title>
+	
+	
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="principal.css" rel="stylesheet">
+	
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+ <meta charset="utf-8">
+  <title>jQuery UI Accordion - Collapse content</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.9.1.js"></script>
+  <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script>
+  $(function() {
+    $( "#accordion" ).accordion({
+      collapsible: true
+    });
+  });
+  $(function() {
+    $( ".menu" ).menu({
+    	
+    });
+  });
+  $(function() {
+    $( "#tabs" ).tabs();
+  });
+  </script>
+
+  </head>
+  <body>
+   <div class= "contenedor">
+   		<div class="row" >
+		  <div class="col-md-3 col-md-offset-1">
+		  	<div id="prin">
+		  		MEDICDATA
+		  	</div>
+		  	
+		  	</div>
+		  <div class="col-md-2  col-md-offset-4">
+				<input type="text" class="form-control" id="busqueda" placeholder="Buscar">
+		  </div>
+		</div>
+		<div class="hola" >
+		  <div class="col-md-2 col-md-offset-1">		   
+				<ul class="menu">
+				  <li>
+				    <a href="#">Cuenta</a>
+				    <ul>
+				      <li><a href="#">Historial</a></li>
+				      <li><a href="#">configuracion</a></li>
+				    </ul>
+				  </li>
+				</ul>
+			</div>
+		  <div class="col-md-2" >
+				<ul class="menu">
+				  <li>
+				    <a href="#">Pacientes</a>
+				    <ul>
+				      
+				      <li><a href="#">Nuevo</a></li>
+				      <li><a href="#">Historial</a></li>
+				      <li><a href="#">Buscar</a></li>
+				    </ul>
+				  </li>
+				</ul>
+			</div>
+		  <div class="col-md-2">
+				<ul class="menu">
+				  <li>
+				    <a href="#">Estadisticas</a>
+				    <ul>
+				      
+				      <li><a href="#">Nacionales</a></li>
+				      <li><a href="#">Mundiales</a></li>
+				    </ul>
+				  </li>
+				</ul>
+	
+			</div>
+		  <div class="col-md-2">
+				<ul class="menu">
+				  <li>
+				    <a href="#">Noticias</a>
+				    <ul>
+				      
+				      <li><a href="#">Nacionales</a></li>
+				      <li><a href="#">Internacionales</a></li>
+				    </ul>
+				  </li>
+				</ul>
+
+			</div>
+		  <div class="col-md-2">
+				<ul class="menu">
+				  <li>
+				    <a href="#">Guia de medicamentos</a>
+				    <ul>
+				      <li><a href="#">Buscar</a></li>
+				      <li><a href="#">Nuevos</a></li>
+				      <li><a href="#">Ayuda</a></li>
+				    </ul>
+				  </li>
+				</ul>
+			</div>
+		</div>
+		<div class="row"  >
+		  <div class="col-md-3 col-md-offset-1">
+				<div class="gris" >
+					Sign In
+				</div>
+				<div class="griss" >
+					<div class="col-md-3 ">
+						Usuario     
+						</div>
+					 <div class="col-md-9 ">
+						<input type="text" id="ssousername" placeholder="">
+						</div>         
+				</div>
+				<div class="griss" >
+					<div class="col-md-3 ">
+						Password  
+						</div>
+					 <div class="col-md-9 ">
+						<input type="password"  id="exampleInputPassword1" placeholder="">
+						</div>         
+				</div>
+				<div class="forgot"  >
+					<div class="col-md-4 col-md-offset-1">
+						<a>Forgot you password?</a>
+					</div>
+					<div class="col-md-6">
+						<input type="submit" value="Login" name="login" class="submit button-1">
+					</div>
+				</div>
+				
+				<div class="espacio" >
+					
+				</div>
+				
+				
+				
+				<div class="gris" >
+					Nuevos medicamentos
+				</div>
+				
+				<div class="medicamentos"  >
+					<div class="col-md-10 col-md-offset-2">
+						<a>Medicamento 1</a>
+						<p> </p>
+						<a>Medicamento 2</a>
+						<p> </p>
+						<a>Medicamento 3</a>
+						<p> </p>
+						<a>Medicamento 4</a>
+						<p> </p>
+						<a>Medicamento 5</a>
+						<p> </p>
+						<a>Medicamento 6</a>
+						<p> </p>
+						<a>Medicamento 7</a>
+					</div>
+				</div>
+			</div>
+			
+		  <div class="col-md-8 ">
+		  	<div class="row">
+		  		<img src="http://www.cormin.com.ec/_documentos/image/contenido/18.jpg?4d6dec815110017ea374571ba9049eaa" width="800px" height="400px">
+		  	</div>
+		  	<div class="row">
+		  		<div id="tabs">
+				  <ul>
+				    <li><a href="#tabs-1">Noticias</a></li>
+				    <li><a href="#tabs-2">Congresos</a></li>
+				    <li><a href="#tabs-3">Medicamentos</a></li>
+				  </ul>
+				  <div id="tabs-1">
+				   
+				    <div class="col-md-3 col-md-offset-1">
+				    	<img src="http://neetescuela.com/wp-content/uploads/2012/01/noticia1.jpg" width="100px" height="100px">
+				    	<p>Noticia 1 </p>
+				    	
+				    </div>
+				     <div class="col-md-3">
+				    	<img src="http://neetescuela.com/wp-content/uploads/2012/01/noticia1.jpg" width="100px" height="100px">
+				    	<p>Noticia 2 </p>
+				    </div>
+				     <div class="col-md-3">
+				    	<img src="http://neetescuela.com/wp-content/uploads/2012/01/noticia1.jpg" width="100px" height="100px">
+				    	<p>Noticia 3 </p>
+				    </div>
+				    <div class="col-md-2">
+				    	<img src="http://neetescuela.com/wp-content/uploads/2012/01/noticia1.jpg" width="100px" height="100px">
+				    	<p>Noticia 4 </p>
+				    </div>
+				    
+				    
+				  </div>
+				  <div id="tabs-2">
+				    <div class="col-md-3 col-md-offset-1">
+				    	<img src="http://4.bp.blogspot.com/_fxNLDJKx2AU/SvqlADMvlvI/AAAAAAAAD-U/khaWioJeac0/s640/congresos.jpg" width="100px" height="100px">
+				    	<p>Congreso 1 </p>
+				    	
+				    </div>
+				     <div class="col-md-3">
+				    	<img src="http://4.bp.blogspot.com/_fxNLDJKx2AU/SvqlADMvlvI/AAAAAAAAD-U/khaWioJeac0/s640/congresos.jpg" width="100px" height="100px">
+				    	<p>Congreso 2 </p>
+				    </div>
+				     <div class="col-md-3">
+				    	<img src="http://4.bp.blogspot.com/_fxNLDJKx2AU/SvqlADMvlvI/AAAAAAAAD-U/khaWioJeac0/s640/congresos.jpg" width="100px" height="100px">
+				    	<p>Congreso 3 </p>
+				    </div>
+				    <div class="col-md-2">
+				    	<img src="http://4.bp.blogspot.com/_fxNLDJKx2AU/SvqlADMvlvI/AAAAAAAAD-U/khaWioJeac0/s640/congresos.jpg" width="100px" height="100px">
+				    	<p>Congreso 4 </p>
+				    </div>
+				   </div>
+				  <div id="tabs-3">
+				     <div class="col-md-3 col-md-offset-1">
+				    	<img src="http://www.economiabolivia.net/wp-content/uploads/2013/04/GF0MAHE1.jpg" width="100px" height="100px">
+				    	<p>Medicamento 1 </p>
+				    	
+				    </div>
+				     <div class="col-md-3">
+				    	<img src="http://www.economiabolivia.net/wp-content/uploads/2013/04/GF0MAHE1.jpg" width="100px" height="100px">
+				    	<p>Medicamento 2 </p>
+				    </div>
+				     <div class="col-md-3">
+				    	<img src="http://www.economiabolivia.net/wp-content/uploads/2013/04/GF0MAHE1.jpg" width="100px" height="100px">
+				    	<p>Medicamento 3 </p>
+				    </div>
+				    <div class="col-md-2">
+				    	<img src="http://www.economiabolivia.net/wp-content/uploads/2013/04/GF0MAHE1.jpg" width="100px" height="100px">
+				    	<p>Medicamento 4 </p>
+				    </div>
+				    
+				    </div>
+				</div>
+		  	</div>
+		  	
+		</div>
+   	
+   </div>
+   </div>
+   <div class="row"  >
+		  
+			
+		  
+   	
+   </div>
+   
+
+   
+  </body>
+</html>

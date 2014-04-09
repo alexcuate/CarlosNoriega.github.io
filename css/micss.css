@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+	background-color:#C4E3F3;
+}
+
+#titulo{
+	font-size:60px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+#contenido{
+	text-align: center;
+	font-size:20px;
+}
+#imagen{
+	border-style: solid;
+	border-color:#000000;
+	border-width: 4px;
+}
+
+#menu{
+	font-size:35px;
+	text-align: center;
+}
+
+#imagenmedi{
+	text-align: center;
+}
+
+#submenu{
+	font-size:25px;
+}
+#texto{
+	font-size:25px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+#pac{
+	
+	text-align: center;
+	font-size:25px;
+}
+#pasinetes{
+	border-right-style: solid;
+	border-right-width: 2px;
+	border-right-color:#000000;
+}
+#texto2{
+	text-align:center;
+	font-size:20px;
+	
+
+}

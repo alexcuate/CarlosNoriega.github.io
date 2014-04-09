@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+	background-color:#C4E3F3;
+}
+
+#titulo{
+	font-size:60px;
+	text-align: center;
+}
+
+#menu{
+	font-size:35px;
+	text-align: center;
+}
+
+
+
+
+
+#imagenmedi{
+	text-align: center;
+}
+
+#submenu{
+	font-size:25px;
+}
+#texto{
+	font-size:20px;
+}
+#pac{
+	
+	text-align: center;
+	font-size:25px;
+}
+#pasinetes{
+	border-right-style: solid;
+	border-right-width: 2px;
+	border-right-color:#000000;
+}
